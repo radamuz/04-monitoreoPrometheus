@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: minio
-  namespace: "namespace"
+  namespace: prometheus-nerd
   labels:
     app.kubernetes.io/name: minio
 spec:

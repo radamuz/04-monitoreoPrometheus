@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: thanos-ruler-rules
-  namespace: "namespace"
+  namespace: prometheus-nerd
 data:
   alert_down_services.rules.yaml: |
     groups:

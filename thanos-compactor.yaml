@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: thanos-compactor
-  namespace: "namespace"
+  namespace: prometheus-nerd
   labels:
     app: thanos-compactor
 spec:

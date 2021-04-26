@@ -4,7 +4,7 @@ metadata:
   labels:
     prometheus: k8s
   name: thanos-sidecar-svc
-  namespace: "namespace"
+  namespace: prometheus-nerd
 spec:
   type: LoadBalancer
   ports:
