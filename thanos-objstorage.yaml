@@ -1,0 +1,6 @@
+type: S3
+config:
+  bucket: "minio"
+  endpoint: "minio.svc"
+  access_key: "secreto"
+  secret_key: "secreto"
